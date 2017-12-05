@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/attraction_list_layout1"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/thumb"
+        android:layout_height="@dimen/thumb"
+        android:id="@+id/attraction_thumb"
+        android:layout_marginLeft="@dimen/list_padding"
+        android:layout_marginTop="@dimen/list_padding"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/attraction_list_name"
+        android:layout_margin="@dimen/list_padding"
+        android:textSize="@dimen/list_name_size"
+        tools:text="attraction Name"/>
+
+</LinearLayout>

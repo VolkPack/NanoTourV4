@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">NanoTour</string>
+    <string name="go_to_attractions_button">Check out Attractions</string>
+    <string name="title_activity_attractions">Attractions</string>
+
+    <string name="palo_alto_button_text">Palo Alto Attractions</string>
+
+    <string-array name="rest_names_PA">
+        <item>Evvia Estiatorio</item>
+        <item>Rangoon Ruby Burmese Cuisine</item>
+        <item>Tamarine Restaurant and Gallery</item>
+        <item>Reposado</item>
+        <item>Bird Dog</item>
+    </string-array>
+
+    <string-array name="rest_address_PA">
+        <item>420 Emerson St, Palo Alto, CA 94301</item>
+        <item>445 Emerson St, Palo Alto, CA 94301</item>
+        <item>546 University Ave, Palo Alto, CA 94301</item>
+        <item>236 Hamilton Ave, Palo Alto, CA 94301</item>
+        <item>420 Ramona St, Palo Alto, CA 94301</item>
+    </string-array>
+
+    <string-array name="rest_desc_PA">
+        <item>Destination for refined renderings of classic Greek dishes in lively surroundings.</item>
+        <item>Relaxed Burmese restaurant with contemporary decor, a trendy bar and exotic tiki cocktails.</item>
+        <item>Modern Vietnamese winner stays busy furnishing creative small and large plates in an artful space.</item>
+        <item>Trendy spot for high-end Mexican fare with a popular bar scene thanks to their margarita selection.</item>
+        <item>Stylish, minimalistic dinner bistro for Californian and Japanese eats made with local ingredients.</item>
+    </string-array>
+
+    <string-array name="interests_names_PA">
+        <item>Pizza My Heart</item>
+        <item>Cheesecake Factory</item>
+        <item>Standford Shopping Mall</item>
+        <item>The Melt</item>
+        <item>Sees Candy</item>
+    </string-array>
+
+    <string-array name="interests_address_PA">
+        <item>220 University Ave, Palo Alto, CA 94301</item>
+        <item>375 University Ave, Palo Alto, CA 94301</item>
+        <item>660 Stanford Shopping Center, Palo Alto, CA 94304</item>
+        <item>Stanford Shopping Center, 180 El Camino Real, Palo Alto, CA 94304</item>
+        <item>Stanford Shopping Center, 131 Stanford Shopping Center, Stanford Shopping Center, Palo Alto, CA 94304</item>
+    </string-array>
+
+    <string-array name="interests_desc_pa">
+        <item>Surf-themed California chain for pizzas with local ingredients in a low-key, counter-serve setting.</item>
+        <item>American chain restaurant offering sizable portions from a vast menu including signature cheesecake.</item>
+        <item>Stanford Shopping Center is an upscale open air shopping mall located on Route 82 at Sand Hill Road in Palo Alto, California.</item>
+        <item>Sleek, counter-serve chain known for its panini-style pressed sandwiches and hearty soups.</item>
+        <item>Candies and chocolates are sold by the piece or box at this old-school chain, in business since 1921.</item>
+    </string-array>
+
+    <string name="ATTRACTION">ATTRACTION</string>
+
+    <string name="rest">Restaurants</string>
+    <string name="mus">Museums</string>
+    <string name="parks">Parks</string>
+    <string name="ints">Interests</string>
+
+</resources>

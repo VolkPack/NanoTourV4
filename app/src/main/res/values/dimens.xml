@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_padding">15dp</dimen>
+    <dimen name="list_name_size">25sp</dimen>
+    <dimen name="padding_general">15dp</dimen>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="address_size">15sp</dimen>
+    <dimen name="desc_size">20sp</dimen>
+    <dimen name="thumb">48dp</dimen>
+    <dimen name="buttons">10sp</dimen>
+</resources>
