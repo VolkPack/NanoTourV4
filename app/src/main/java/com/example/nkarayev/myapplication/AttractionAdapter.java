@@ -44,4 +44,5 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         return listItemView;
     }
+
 }

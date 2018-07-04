@@ -29,56 +29,6 @@ public class AttractionList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attraction_list);
 
-        Button rest = (Button) findViewById(R.id.rests);
-        Button mus = (Button) findViewById(R.id.mus);
-        Button parks = (Button) findViewById(R.id.parks);
-        Button ints = (Button) findViewById(R.id.ints);
-
-        rest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setRests();
-                ListView listView = (ListView) findViewById(R.id.activity_attraction_list);
-                AttractionListAdapter attractionListAdapter = new AttractionListAdapter(AttractionList.this, attraction);
-                listView.setAdapter(attractionListAdapter);
-                attractionListAdapter.notifyDataSetChanged();
-
-            }
-        });
-        mus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setInts(); //palceholder data
-                ListView listView = (ListView) findViewById(R.id.activity_attraction_list);
-                AttractionListAdapter attractionListAdapter = new AttractionListAdapter(AttractionList.this, attraction);
-                listView.setAdapter(attractionListAdapter);
-                attractionListAdapter.notifyDataSetChanged();
-
-            }
-        });
-        parks.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setInts(); //placeholder data
-                ListView listView = (ListView) findViewById(R.id.activity_attraction_list);
-                AttractionListAdapter attractionListAdapter = new AttractionListAdapter(AttractionList.this, attraction);
-                listView.setAdapter(attractionListAdapter);
-                attractionListAdapter.notifyDataSetChanged();
-
-            }
-        });
-
-        ints.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setInts();
-                ListView listView = (ListView) findViewById(R.id.activity_attraction_list);
-                AttractionListAdapter attractionListAdapter = new AttractionListAdapter(AttractionList.this, attraction);
-                listView.setAdapter(attractionListAdapter);
-                attractionListAdapter.notifyDataSetChanged();
-
-            }
-        });
 
     }
 

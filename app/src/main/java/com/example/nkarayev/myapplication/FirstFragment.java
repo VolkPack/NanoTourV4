@@ -1,11 +1,15 @@
 package com.example.nkarayev.myapplication;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.List;
 
 /**
  * Created by n.karayev on 8/17/2017.
@@ -15,6 +19,8 @@ public class FirstFragment extends Fragment {
     // Store instance variables
     private String title;
     private int page;
+    private AttractionList attractionList;
+
 
     // newInstance constructor for creating fragment with arguments
     public static FirstFragment newInstance(int page, String title) {
@@ -32,13 +38,15 @@ public class FirstFragment extends Fragment {
         super.onCreate(savedInstanceState);
         page = getArguments().getInt("someInt", 0);
         title = getArguments().getString("someTitle");
+
+
     }
 
     // Inflate the view for the fragment based on layout XML
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_first, container, false);
+        View view = inflater.inflate(R.layout.activity_attraction_list, container, false);
 
         return view;
     }
